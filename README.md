@@ -5,6 +5,7 @@
 Sistema de controle de pedidos do setor financeiro
 
 API - Spring Boot
+
 Front End - React/NextJs
 
 ## Getting started
