@@ -1,0 +1,175 @@
+.headingWrapper {
+  /* heading-wrapper */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 100px;
+  height: 30px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title {
+  /* Card-Title */
+  width: 100px;
+  height: 26px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  letter-spacing: 0.016em;
+  color: #202020;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.line {
+  /* separator */
+  width: 100px;
+  height: 0px;
+  border: 2px solid #00A095;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border-radius: 4px;
+}
+
+.inputNameList {
+  /* input */
+  width: 748px;
+  height: 60px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.labelNameList {
+  width: 748px;
+  left: 16px;
+  top: 62px;
+}
+
+.inputPriorityList {
+  /* input */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 748px;
+  height: 64px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.inputFornecimento {
+  /* placeholder */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  gap: 4px;
+  position: absolute;
+  width: 748px;
+  height: 42px;
+  left: 16px;
+  top: 240px;
+  background: rgba(0, 72, 63, 0.05);
+  border-radius: 100px;
+}
+
+.inputMateriais {
+  /* input */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10%;
+  width: 748px;
+  height: 268px;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.inputFileTitle {
+  /* input-title */
+  position: absolute;
+  width: 248px;
+  height: 22px;
+  left: 16px;
+  top: 85%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  letter-spacing: 0.016em;
+  color: #202020;
+}
+
+.cardsContainer {
+  /* Cards-container */
+  /* Auto layout */
+  margin: 0%;
+  width: 80%;
+  height: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 0px;
+  gap: 8px;
+  top: 15%;
+  left: 8%;
+}
+
+.novaLista {
+  /* Nova-nota */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 48px 100px;
+  gap: 8px;
+  position: absolute;
+  left: 80%;
+  top: 60%;
+
+}
+
+.symbolProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  background: #E63C98;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

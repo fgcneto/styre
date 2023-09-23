@@ -1,0 +1,59 @@
+.menuWrapper {
+  /* menu-wrapper */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 621px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.menuItem {
+  /* Menu-item */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 160px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menuTitleItem {
+  /* Área de fornecimento */
+  width: 170px;
+  height: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+  letter-spacing: 0.016em;
+  color: #00746A;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.symbolMenuItem {
+  /* material-symbols:arrow-drop-down-rounded */
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #00746A;
+  background-color: white;
+  border: none;
+}

@@ -1,0 +1,187 @@
+.main {
+  margin: 0;
+  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  background: #FFBBDA;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 16px;
+  position: absolute;
+  width: 438px;
+  height: 600px;
+  left: 100px;
+  top: 60px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 40px 29px rgba(153, 0, 95, 0.14);
+  border-radius: 32px;
+}
+.loginContainerWrapper{
+  flex-direction: column;
+}
+
+.inputLogin {
+  background: transparent;
+  flex: 1;
+  padding: 5;
+  border: none;
+}
+
+.heading {
+  margin-top: 16px;
+  width: 237px;
+  height: 62px;
+  left: 32px;
+  top: 151px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  letter-spacing: 0.026em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buttonsFilled {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 374px;
+  height: 38px;
+  background: #E63C98;
+  border-radius: 100px;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+  border-radius: 100px;
+}
+
+.buttonTertiaryWrapper {
+  width: 374px;
+  height: 46px;
+  left: 32px;
+  top: 459px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+
+.buttonForgotPassword {
+  /* Button-tertiary */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 374px;
+  height: 19px;
+  left: 32px;
+  top: 459px;
+}
+
+.textForgotPassword {
+  /* Esqueci minha senha */
+  width: 233px;
+  height: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.016em;
+  color: #99005F;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.buttonRequestAccess {
+  /* Button-tertiary */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 374px;
+  height: 19px;
+  left: 32px;
+  top: 486px;
+}
+
+.textRequestAccess {
+  /* Solicitar acesso */
+  width: 233px;
+  height: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.016em;
+  color: #99005F;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pageBreaker {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  p {
+    margin: 0 10px;
+  }
+
+  div {
+    flex: 1;
+    height: 1px;
+  }
+}
+
+.arrowIconAgile{
+  position: absolute;
+  width: 191px;
+  height: 191px;
+  left: 0px;
+  top: 0px;
+}
+
+.arrowIconPiggy{
+  position: absolute;
+  width: 571px;
+  height: 571px;
+  left: 383px;
+  top: 30%;
+}
+
+.arrowIconBusiness {
+  margin: 5% 0;
+  position: absolute;
+  width: 951.16px;
+  height: 951.16px;
+  left: 61.5%;
+  top: -8%;
+  transform: rotate(6.22deg);
+}

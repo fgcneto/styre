@@ -1,0 +1,30 @@
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 99px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.textStyre {
+  position: absolute;
+  width: 71px;
+  height: 62px;
+  left: 56px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 160%;
+  letter-spacing: 0.026em;
+  color: #202020;
+}
+
+.groupEllipse {
+  position: absolute;
+  width: 20px;
+  height: 62px;
+  left: 32px;
+}

@@ -1,0 +1,40 @@
+
+.input {
+  width: 374px;
+  height: 72px;
+  left: 32px;
+  margin-top: 26px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+
+.inputTitle {
+  position: absolute;
+  width: 150px;
+  height: 22px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.016em;
+  color: #99005F;
+}
+
+.containerInput {
+  /* placeholder */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px, 16px, 8px, 16px;
+  margin-top: 6%;
+  position: absolute;
+  width: 374px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 100px;
+}
+

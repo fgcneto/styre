@@ -1,0 +1,325 @@
+$lds-neutral-50: #eef1fa;
+$lds-neutral-100: #dfe2eb;
+$lds-neutral-200: #c3c6cf;
+$lds-neutral-300: #a7abb3;
+$lds-neutral-400: #8d9199;
+$lds-neutral-500: #73777f;
+$lds-neutral-600: #5a5e66;
+$lds-neutral-700: #43474e;
+$lds-neutral-800: #2d3137;
+$lds-neutral-900: #181b22;
+
+$lds-primary-50: #e9f1ff;
+$lds-primary-300: #d1e4ff;
+$lds-primary-500: #71aff8;
+$lds-primary-700: #0e61a4;
+$lds-primary-900: #00325b;
+
+$lds-secondary-50: #f9ffe1;
+$lds-secondary-300: #bdf462;
+$lds-secondary-500: #a3d749;
+$lds-secondary-700: #6f9f0d;
+$lds-secondary-900: #324f00;
+
+$lds-success-50: #e6fef3;
+$lds-success-300: #9cfcce;
+$lds-success-500: #3af89e;
+$lds-success-700: #059450;
+$lds-success-900: #036335;
+
+$lds-alert-50: #fff3db;
+$lds-alert-300: #ffda8f;
+$lds-alert-500: #ffab00;
+$lds-alert-700: #de9500;
+$lds-alert-900: #ab7300;
+
+$lds-error-50: #fde9e7;
+$lds-error-300: #f8a6a0;
+$lds-error-500: #f04c42;
+$lds-error-700: #8e130b;
+$lds-error-900: #5f0d07;
+
+$lds-shade-0: #ffffff;
+$lds-shade-100: #000000;
+
+:export {
+  lds-neutral-50: $lds-neutral-50;
+  lds-neutral-100: $lds-neutral-100;
+  lds-neutral-200: $lds-neutral-200;
+  lds-neutral-300: $lds-neutral-300;
+  lds-neutral-400: $lds-neutral-400;
+  lds-neutral-500: $lds-neutral-500;
+  lds-neutral-600: $lds-neutral-600;
+  lds-neutral-700: $lds-neutral-700;
+  lds-neutral-800: $lds-neutral-800;
+  lds-neutral-900: $lds-neutral-900;
+
+  lds-primary-50: $lds-primary-50;
+  lds-primary-300: $lds-primary-300;
+  lds-primary-500: $lds-primary-500;
+  lds-primary-700: $lds-primary-700;
+  lds-primary-900: $lds-primary-900;
+
+  lds-secondary-50: $lds-secondary-50;
+  lds-secondary-300: $lds-secondary-300;
+  lds-secondary-500: $lds-secondary-500;
+  lds-secondary-700: $lds-secondary-700;
+  lds-secondary-900: $lds-secondary-900;
+
+  lds-success-50: $lds-success-50;
+  lds-success-300: $lds-success-300;
+  lds-success-500: $lds-success-500;
+  lds-success-700: $lds-success-700;
+  lds-success-900: $lds-success-900;
+
+  lds-alert-50: $lds-alert-50;
+  lds-alert-300: $lds-alert-300;
+  lds-alert-500: $lds-alert-500;
+  lds-alert-700: $lds-alert-700;
+  lds-alert-900: $lds-alert-900;
+
+  lds-error-50: $lds-error-50;
+  lds-error-300: $lds-error-300;
+  lds-error-500: $lds-error-500;
+  lds-error-700: $lds-error-700;
+  lds-error-900: $lds-error-900;
+
+  lds-shade-0: $lds-shade-0;
+  lds-shade-100: $lds-shade-100;
+}
+
+.lds-color-neutral-50 {
+  color: $lds-neutral-50;
+}
+.lds-color-neutral-100 {
+  color: $lds-neutral-100;
+}
+.lds-color-neutral-200 {
+  color: $lds-neutral-200;
+}
+.lds-color-neutral-300 {
+  color: $lds-neutral-300;
+}
+.lds-color-neutral-400 {
+  color: $lds-neutral-400;
+}
+.lds-color-neutral-500 {
+  color: $lds-neutral-500;
+}
+.lds-color-neutral-600 {
+  color: $lds-neutral-600;
+}
+.lds-color-neutral-700 {
+  color: $lds-neutral-700;
+}
+.lds-color-neutral-800 {
+  color: $lds-neutral-800;
+}
+.lds-color-neutral-900 {
+  color: $lds-neutral-900;
+}
+
+.lds-color-primary-50 {
+  color: $lds-primary-50;
+}
+.lds-color-primary-300 {
+  color: $lds-primary-300;
+}
+.lds-color-primary-500 {
+  color: $lds-primary-500;
+}
+.lds-color-primary-700 {
+  color: $lds-primary-700;
+}
+.lds-color-primary-900 {
+  color: $lds-primary-900;
+}
+
+.lds-color-secondary-50 {
+  color: $lds-secondary-50;
+}
+.lds-color-secondary-300 {
+  color: $lds-secondary-300;
+}
+.lds-color-secondary-500 {
+  color: $lds-secondary-500;
+}
+.lds-color-secondary-700 {
+  color: $lds-secondary-700;
+}
+.lds-color-secondary-900 {
+  color: $lds-secondary-900;
+}
+
+.lds-color-success-50 {
+  color: $lds-success-50;
+}
+.lds-color-success-300 {
+  color: $lds-success-300;
+}
+.lds-color-success-500 {
+  color: $lds-success-500;
+}
+.lds-color-success-700 {
+  color: $lds-success-700;
+}
+.lds-color-success-900 {
+  color: $lds-success-900;
+}
+
+.lds-color-alert-50 {
+  color: $lds-alert-50;
+}
+.lds-color-alert-300 {
+  color: $lds-alert-300;
+}
+.lds-color-alert-500 {
+  color: $lds-alert-500;
+}
+.lds-color-alert-700 {
+  color: $lds-alert-700;
+}
+.lds-color-alert-900 {
+  color: $lds-alert-900;
+}
+
+.lds-color-error-50 {
+  color: $lds-error-50;
+}
+.lds-color-error-300 {
+  color: $lds-error-300;
+}
+.lds-color-error-500 {
+  color: $lds-error-500;
+}
+.lds-color-error-700 {
+  color: $lds-error-700;
+}
+.lds-color-error-900 {
+  color: $lds-error-900;
+}
+
+.lds-color-shade-0 {
+  color: $lds-shade-0;
+}
+.lds-color-shade-100 {
+  color: $lds-shade-100;
+}
+
+.lds-bgcolor-neutral-50 {
+  background-color: $lds-neutral-50;
+}
+.lds-bgcolor-neutral-100 {
+  background-color: $lds-neutral-100;
+}
+.lds-bgcolor-neutral-200 {
+  background-color: $lds-neutral-200;
+}
+.lds-bgcolor-neutral-300 {
+  background-color: $lds-neutral-300;
+}
+.lds-bgcolor-neutral-400 {
+  background-color: $lds-neutral-400;
+}
+.lds-bgcolor-neutral-500 {
+  background-color: $lds-neutral-500;
+}
+.lds-bgcolor-neutral-600 {
+  background-color: $lds-neutral-600;
+}
+.lds-bgcolor-neutral-700 {
+  background-color: $lds-neutral-700;
+}
+.lds-bgcolor-neutral-800 {
+  background-color: $lds-neutral-800;
+}
+.lds-bgcolor-neutral-900 {
+  background-color: $lds-neutral-900;
+}
+
+.lds-bgcolor-primary-50 {
+  background-color: $lds-primary-50;
+}
+.lds-bgcolor-primary-300 {
+  background-color: $lds-primary-300;
+}
+.lds-bgcolor-primary-500 {
+  background-color: $lds-primary-500;
+}
+.lds-bgcolor-primary-700 {
+  background-color: $lds-primary-700;
+}
+.lds-bgcolor-primary-900 {
+  background-color: $lds-primary-900;
+}
+
+.lds-bgcolor-secondary-50 {
+  background-color: $lds-secondary-50;
+}
+.lds-bgcolor-secondary-300 {
+  background-color: $lds-secondary-300;
+}
+.lds-bgcolor-secondary-500 {
+  background-color: $lds-secondary-500;
+}
+.lds-bgcolor-secondary-700 {
+  background-color: $lds-secondary-700;
+}
+.lds-bgcolor-secondary-900 {
+  background-color: $lds-secondary-900;
+}
+
+.lds-bgcolor-success-50 {
+  background-color: $lds-success-50;
+}
+.lds-bgcolor-success-300 {
+  background-color: $lds-success-300;
+}
+.lds-bgcolor-success-500 {
+  background-color: $lds-success-500;
+}
+.lds-bgcolor-success-700 {
+  background-color: $lds-success-700;
+}
+.lds-bgcolor-success-900 {
+  background-color: $lds-success-900;
+}
+
+.lds-bgcolor-alert-50 {
+  background-color: $lds-alert-50;
+}
+.lds-bgcolor-alert-300 {
+  background-color: $lds-alert-300;
+}
+.lds-bgcolor-alert-500 {
+  background-color: $lds-alert-500;
+}
+.lds-bgcolor-alert-700 {
+  background-color: $lds-alert-700;
+}
+.lds-bgcolor-alert-900 {
+  background-color: $lds-alert-900;
+}
+
+.lds-bgcolor-error-50 {
+  background-color: $lds-error-50;
+}
+.lds-bgcolor-error-300 {
+  background-color: $lds-error-300;
+}
+.lds-bgcolor-error-500 {
+  background-color: $lds-error-500;
+}
+.lds-bgcolor-error-700 {
+  background-color: $lds-error-700;
+}
+.lds-bgcolor-error-900 {
+  background-color: $lds-error-900;
+}
+
+.lds-bgcolor-shade-0 {
+  background-color: $lds-shade-0;
+}
+.lds-bgcolor-shade-100 {
+  background-color: $lds-shade-100;
+}
